@@ -6,7 +6,7 @@ bool FIPStest::Test(std::string key) {
     bool longrun = LongRun(key);
     bool poker = Poker(key);
     bool runs = Runs(key);
-    return monobit && longrun && longrun && runs;
+    return monobit && longrun && poker && runs;
 }
 
 bool FIPStest::Monobit(std::string key) {
